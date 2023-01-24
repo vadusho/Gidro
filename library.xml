@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<components>
+	<pipes>
+    		<pipe id="0" name="0x1" type="Полипропиленовая" diameter="0.1" roughness="0.01"/>
+    		<pipe id="1" name="0x2" type="Полипропиленовая" diameter="0.1" roughness="0.05"/>
+    		<pipe id="2" name="0x3" type="Полипропиленовая" diameter="0.2" roughness="0.01"/>
+    		<pipe id="3" name="0x4" type="Полипропиленовая" diameter="0.8" roughness="0.001"/>
+    		<pipe id="4" name="0x1" type="Стальная" diameter="0.1" roughness="0.01"/>
+    		<pipe id="5" name="0x2" type="Стальная" diameter="0.1" roughness="0.05"/>
+    		<pipe id="6" name="0x3" type="Стальная" diameter="0.2" roughness="0.01"/>
+    		<pipe id="7" name="0x4" type="Стальная" diameter="0.2" roughness="0.001"/>
+</pipes>
+<regulators>
+    		<gate id="0" name="0x1" typeCharacteristic="Линейная"/>
+		<gate id="1" name="0x2" typeCharacteristic="Линейная" bandwidth="6.3"/>
+		<gate id="2" name="0x3" typeCharacteristic="Равнопроцентная" bandwidth="16"/>
+		<gate id="3" name="0x4" typeCharacteristic="Параболическая" bandwidth="10"/>
+		<gate id="4" name="0x5" typeCharacteristic="Сплайн" bandwidth="40"/>
+		<gate id="4" name="0x5" typeCharacteristic="Сплайн" bandwidth="40"/>
+
+
+
+</regulators>
+
+
+</components>
